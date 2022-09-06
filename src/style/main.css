@@ -38,6 +38,10 @@ strong,
     font-family: var(--font-bold);
 }
 
+p{
+    line-height: 25px;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -56,6 +60,13 @@ strong,
 .items{
     display: flex;
     gap: 40px;
+    color: var(--inside-call-to-action-cyan);
+}
+
+.items li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--white);
 }
 
 .bg-curvey{
@@ -71,7 +82,7 @@ strong,
     align-items: center;
     text-align: center;
     gap: 40px;
-    padding: 40px 0px;
+    padding: 100px 0px;
 }
 
 .main h1{
@@ -92,4 +103,200 @@ strong,
     color: var(--white);
     font-size: 16px;
     font-family: var(--font-bold);
+}
+
+.main button:hover{
+    background: var(--inside-call-to-action-cyan);
+    cursor: pointer;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding: 40px 100px;
+    background-color: var(--main-background);
+}
+
+.grid-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.chat-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 40px;
+    background-color: var(--main-background);
+}
+
+.productive{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productive a{
+    color: var(--inside-call-to-action-cyan);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: underline;
+}
+
+.productive a:hover{
+    color: var(--white);
+}
+
+.comments{
+    background-color: var(--main-background);
+    padding: 60px;
+}
+
+.bg-quotes{
+    background-image: url('../assets/imgs/bg-quotes.png');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.comment{
+    background-color: var(--testimonials-background);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 1px 1px 10px rgb(43, 38, 38);
+    font-size: 14px;
+    margin-top: 32px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-info img{
+    border-radius: 100%;
+}
+
+.footer{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: var(--footer-background);
+}
+
+.footer-info{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    margin-top: 24px;
+}
+
+.location{
+    display: flex;
+    gap: 16px;
+}
+
+.location img{
+    margin-top: 6px;
+}
+
+.mr{
+    margin-right: 16px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons{
+    display: flex;
+    gap: 16px;
+}
+
+.social-icon-container{
+    padding: 12px;
+    border: 1px solid var(--white);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-container:hover{
+    color: var(--inside-call-to-action-cyan);
+    border: 1px solid var(--inside-call-to-action-cyan);
+    cursor: pointer;
+}
+
+.gap{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.comunicate{
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-background);
+    position: relative;
+    height: 200px;
+}
+
+.comunicate-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    background-color: var(--intro-email-ign-up-background);
+    box-shadow: 2px 2px 10px hsl(216, 53%, 9%);
+    padding: 60px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.comunicate-section form{
+    display: flex;
+    gap: 20px;
+}
+.comunicate-section form input{
+    flex: 1;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: none;
+}
+
+.comunicate-section form button{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(to right, var(--inside-call-to-action-cyan), var(--inside-call-to-action-blue));
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    font-family: var(--font-bold);
+}
+
+.comunicate-section form button:hover{
+    background: var(--inside-call-to-action-cyan);
+    cursor: pointer;
+}
+
+.gap li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--white);
 }
