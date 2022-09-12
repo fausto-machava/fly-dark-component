@@ -300,3 +300,56 @@ p{
     cursor: pointer;
     color: var(--white);
 }
+
+@media (max-width: 375px) {
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .logo img{
+        height: auto;
+        width: 60px;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+    }
+
+    .chat-section, .bg-quotes{
+        flex-direction: column;
+    }
+
+    .comunicate{
+        margin-bottom: 220px;
+    }
+
+    .comunicate-section{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    .comunicate-section form{
+        flex-direction: column;
+    }
+
+    .comunicate-section form input{
+        padding: 20px 40px;
+    }
+
+    .footer-info{
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+
+    .center{
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .img-hero{
+        width: 100%;
+        height: auto;
+    }
+}

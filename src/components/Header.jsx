@@ -3,7 +3,7 @@ import logo from '../assets/imgs/logo.svg';
 export function Header(){
     return (
         <div className='header container'>
-            <span>
+            <span className='logo'>
                 <img src={logo} />
             </span>
             <span>

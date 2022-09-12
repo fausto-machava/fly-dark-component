@@ -14,8 +14,7 @@ export function Main() {
         <div className="">
             <div className='container bg-curvey'>
                 <div className='main'>
-                    <img src={imgSection} alt="illustration-intro" />
-
+                    <img className='img-hero' src={imgSection} alt="illustration-intro" />
                     <h1>All your files in one secure location, <br /> accessible anywhere.</h1>
 
                     <p>Fylo stores all your most important files in one secure location.
@@ -49,7 +48,7 @@ export function Main() {
             </div>
             <div className='chat-section container'>
                 <div>
-                    <img src={illustrationStayProductive} alt="" />
+                    <img className='img-hero' src={illustrationStayProductive} alt="" />
                 </div>
                 <div className='productive'>
                     <h1>Stay productive, <br /> wherever you are</h1>
