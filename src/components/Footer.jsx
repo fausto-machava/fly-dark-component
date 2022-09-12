@@ -11,12 +11,12 @@ export function Footer() {
             </div>
             <div className='footer-info'>
                 <div className='location'>
-                    <img src={iconLocation} alt="" width={12} height={16} />
+                    <img src={iconLocation} alt="iconLocation" width={12} height={16} />
                     <p>Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua</p>
                 </div>
                 <div className='gap'>
-                    <p> <img className='mr' src={iconPhone} /> +1-543-123-4567</p>
-                    <p> <img className='mr' src={iconEmail} /> example@fylo.com</p>
+                    <p> <img className='mr' src={iconPhone} alt='iconPhone'/> +1-543-123-4567</p>
+                    <p> <img className='mr' src={iconEmail} alt='iconEmail'/> example@fylo.com</p>
                 </div>
                 <div className='center'>
                     <ul className='gap'>
@@ -36,13 +36,13 @@ export function Footer() {
                 <div className='center'>
                     <span className='social-icons'>
                         <span className='social-icon-container'>
-                            <img src={iconEmail} alt="" />
+                            <img src={iconEmail} alt="iconEmail" />
                         </span>
                         <span className='social-icon-container'>
-                            <img src={iconPhone} alt="" />
+                            <img src={iconPhone} alt="iconPhone" />
                         </span>
                         <span className='social-icon-container'>
-                            <img src={iconLocation} alt="" />
+                            <img src={iconLocation} alt="iconLocation" />
                         </span>
                     </span>
                 </div>

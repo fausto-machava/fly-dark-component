@@ -20,35 +20,34 @@ export function Main() {
                     <p>Fylo stores all your most important files in one secure location.
                         <br /> Access them wherever you need, share and collaborate with
                         <br /> friends family, and co-workers.</p>
-
                     <button>Get Started</button>
                 </div>
             </div>
             <div className='grid container'>
                 <div className="grid-items">
-                    <img src={acessImg} alt="" />
-                    <h3>Access your files, anywhere</h3>
+                    <img src={acessImg} alt="acessImg" />
+                    <strong>Access your files, anywhere</strong>
                     <p>The ability to use a smartphone, tablet, or computer <br /> to access your account means your files follow you <br /> everywhere.</p>
                 </div>
                 <div className="grid-items">
-                    <img src={iconSecurity} alt="" />
-                    <h3>Security you can trust</h3>
+                    <img src={iconSecurity} alt="iconSecurity" />
+                    <strong>Security you can trust</strong>
                     <p>2-factor authentication and user-controlled encryption are <br /> just a couple of the security features we allow to help <br /> secure your files.</p>
                 </div>
                 <div className="grid-items">
-                    <img src={iconCollaboration} alt="" />
-                    <h3>Real-time collaboration</h3>
+                    <img src={iconCollaboration} alt="iconCollaboration" />
+                    <strong>Real-time collaboration</strong>
                     <p>Securely share files and folders with friends, family and <br /> colleagues for live collaboration. No email attachments <br /> required.</p>
                 </div>
                 <div className="grid-items">
-                    <img src={iconAnyFile} alt="" />
-                    <h3>Store any type of file</h3>
+                    <img src={iconAnyFile} alt="iconAnyFile" />
+                    <strong>Store any type of file</strong>
                     <p>Whether you're sharing holidays photos or work <br /> documents, Fylo has you covered allowing for all file <br /> types to be securely stored and shared.</p>
                 </div>
             </div>
             <div className='chat-section container'>
                 <div>
-                    <img className='img-hero' src={illustrationStayProductive} alt="" />
+                    <img className='img-hero' src={illustrationStayProductive} alt="illustrationStayProductive" />
                 </div>
                 <div className='productive'>
                     <h1>Stay productive, <br /> wherever you are</h1>
@@ -64,9 +63,9 @@ export function Main() {
                             Fylo has improved our team productivity by <br /> an order of magnitude. Since making the <br /> switch our team has become a well-oiled <br /> collaboration machine.
                         </p>
                         <div className='user-info'>
-                            <img src={profile1} width={40} height={40} />
+                            <img src={profile1} width={40} height={40} alt='profile1'/>
                             <div>
-                                <h4>Satish Patel</h4>
+                                <strong>Satish Patel</strong>
                                 <p>Founder & CEO, Huddle</p>
                             </div>
                         </div>
@@ -76,9 +75,9 @@ export function Main() {
                             Fylo has improved our team productivity by <br /> an order of magnitude. Since making the <br /> switch our team has become a well-oiled <br /> collaboration machine.
                         </p>
                         <div className='user-info'>
-                            <img src={profile2} width={40} height={40} />
+                            <img src={profile2} alt='profile2' width={40} height={40} />
                             <div>
-                                <h4>Bruce McKenzie</h4>
+                                <strong>Bruce McKenzie</strong>
                                 <p>Founder & CEO, Huddle</p>
                             </div>
                         </div>
@@ -88,9 +87,9 @@ export function Main() {
                             Fylo has improved our team productivity by <br /> an order of magnitude. Since making the <br /> switch our team has become a well-oiled <br /> collaboration machine.
                         </p>
                         <div className='user-info'>
-                            <img src={profile3} width={40} height={40} />
+                            <img src={profile3} alt='profile3' width={40} height={40} />
                             <div>
-                                <h4>Iva Boyd</h4>
+                                <strong>Iva Boyd</strong>
                                 <p>Founder & CEO, Huddle</p>
                             </div>
                         </div>
