@@ -53,7 +53,7 @@ export function Main() {
                     <h1>Stay productive, <br /> wherever you are</h1>
                     <p>Never let location be an issue when accessing your files. Fylo has you <br /> covered for all of your file storage needs.</p>
                     <p>Securely share files and folders with friends, family and colleagues for live <br /> collaboration. No email attachments required.</p>
-                    <a href="#">See how Fylo works <img src={iconArrow} /></a>
+                    <a href="#">See how Fylo works <img src={iconArrow} alt='right arrow'/></a>
                 </div>
             </div>
             <div className='container comments'>
@@ -101,7 +101,7 @@ export function Main() {
                     <h1>Get early access today</h1>
                     <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any <br /> questions, our support team would be happy to help you.</p>
                     <div>
-                        <form action="">
+                        <form action="/add" method='post'>
                             <input type="email" placeholder='email@example.com' />
                             <button type='submit'>Get Started For Free</button>
                         </form>
